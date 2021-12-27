@@ -1,0 +1,152 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    padding-top: 5rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color :rgb(73, 96, 226);
+    font-size : 1.2rem;
+    font-weight: 700;
+    margin-left: 1.2rem;
+}
+
+a:hover{
+    list-style-type: none;
+    text-decoration:none;
+    color : rgb(32, 62, 90);
+}
+
+/* header*/
+
+#header--img_ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background-color: white;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top :0;
+    width: 100%;
+}
+
+
+#header--img {
+	width: 79px;
+}
+
+#header--ul_li {
+	display: flex;
+	justify-content: space-between;
+	width: 20%;
+}
+
+/*Main*/
+
+main {
+	display: flex;
+}
+
+.section {
+	width: 50%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*form*/
+ 
+div {
+	width: 70%;
+	margin: 4rem auto;
+	border-radius: 10px;
+	box-shadow: 2px 2px 27px darkcyan;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    padding: 1.2rem;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: .5rem;
+	font-size: 1.3em;
+	color: darkcyan;
+}
+
+input {
+	margin-bottom: 1.2rem;
+    border: 1px solid rgb(56, 98, 134);
+    border-radius: 1.2em;
+    height: 2.5rem;
+    width: 100%;
+    padding-left : 10px
+}
+
+::placeholder {
+    color: darkcyan;
+    font-size: 1.2em;
+  }
+  
+#checkbox {
+	width: auto;
+	margin-bottom: 0rem;
+    border: 2px solid black;
+}
+
+#button{
+    font-size: large;
+    text-transform: uppercase;
+    background-color: rgb(56, 98, 134);
+    color: white;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+#button:hover{
+    background-color: white;
+    color: rgb(56, 98, 134);
+}
+
+/* section paragraphe*/
+
+#section--para{
+    background-image: url(../image/christmas-tree-fond.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+	background-color: rgba(225, 225, 226, 0.431);
+	padding: 3rem;
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+	font-size: 1.8rem;
+	text-align: center;
+    height: 200px;
+    text-shadow: 2px 2px 5px black;
+}
+
+/*footer*/
+
+footer {
+	padding: 1.2rem 0;
+	background-color: white;
+}
+
+#footer--ul {
+	display: flex;
+	justify-content: space-evenly;
+}

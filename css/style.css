@@ -71,7 +71,7 @@ div {
 	box-shadow: 2px 2px 27px darkcyan;
 }
 
-form {
+form, #section--form__data {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -83,6 +83,15 @@ label {
 	margin-bottom: .5rem;
 	font-size: 1.3em;
 	color: darkcyan;
+}
+
+.form__data{
+    font-size: 1.3em;
+	color: darkcyan;
+}
+
+.wrong{
+    color:red;
 }
 
 input {
@@ -127,7 +136,7 @@ input {
     background-size: cover;
 }
 
-p {
+#section--para__message {
 	background-color: rgba(225, 225, 226, 0.431);
 	padding: 3rem;
 	width: 80%;

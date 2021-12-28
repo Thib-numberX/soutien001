@@ -49,3 +49,28 @@ Rendre le site joli.
 ### Pourquoi seulement maintenant ?
 
 Il est plus simple de peintre une peinture si la toile est déjà faite ? C'est pareil avec un site. Plus le HTML sera propre et réfléchi plus le css sera simple à écrire.
+
+## Deuxième jour : Etape 4 - le PHP
+
+## Les bases
+
+relecture des bases à travers des fiches de révisions
+
+## Index.php
+
+Création de la page index.php, depuis la page index.html
+
+### Include
+
+En PHP il est possible de créer des pages en incluant des "templates" via la fonction Include ou Required. Nous ferons comment créer les templates dans un fichiers inc.
+Templates :
+- header.php
+- footer.php
+
+### Réception de données du formulaire
+
+Nous allons voir comment récupérer les données du formulaire (transmisent sous la forme d'un tableau généré automatiquement).
+Ils nous serviront à les intégrer dans nos deux pages seulement avec ce simple bout de code --> include "header.php"; et include "footer.php";
+
+Nous utiliserons $_method['key'];.
+Nous verrons filter_input et les conditons. 
